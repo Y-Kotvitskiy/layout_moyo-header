@@ -5,9 +5,13 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
+body,
+header,
+ul,
+li,
+a,
+li::after,
+a::after {
   box-sizing: inherit;
 }
 
